@@ -19,7 +19,12 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string text = (textBox1.Text);
+            string text1 = (textBox2.Text);
+            string text3 = (text.ToString() + " " + text1.ToString() + " ");
 
+
+            textBox3.Text = text3.Substring(2); 
         }
     }
 }
